@@ -175,7 +175,7 @@ $form-element-height-map: (
     )
 );
 
-$media-path: '../../media' !default;  // Must NOT end with /
+$media-path: "../assets" !default;  // Must NOT end with /
 
 
 $datetimepicker-max-width: 400px !default;
