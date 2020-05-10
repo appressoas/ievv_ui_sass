@@ -1,0 +1,12 @@
+@import 'basetheme/1__settings/all';
+@import 'basetheme/2__generic/all';
+@import 'basetheme/3__base/cricon/cricon-font-awesome';
+
+//$cricon-font-awesome-free-icon-map: map-merge($cricon-font-awesome-free-icon-map, (
+//    align-center: $fa-var-align-center,
+//    align-right: $fa-var-align-right
+//));
+//$cricon-extra-icon-names: align-center, align-right;
+
+@import 'basetheme/3__base/all';
+@import 'basetheme/4__components/all';

@@ -10,7 +10,7 @@
     "sass": "^1.26.5"
   },
   "scripts": {
-    "watch": "sass src/:out/ --watch",
-    "build": "sass src/:out/"
+    "watch": "sass src/main.scss:out/main.css --watch",
+    "build": "sass src/main.scss:out/main.css"
   }
 }
