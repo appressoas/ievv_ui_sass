@@ -7,10 +7,18 @@
   "private": false,
   "dependencies": {},
   "devDependencies": {
-    "sass": "^1.26.5"
+    "autoprefixer": "^9.7.6",
+    "css-loader": "^3.5.3",
+    "extract-loader": "^5.0.1",
+    "file-loader": "^6.0.0",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
-    "watch": "sass src/main.scss:out/main.css --watch",
-    "build": "sass src/main.scss:out/main.css"
+    "build": "webpack --verbose",
+    "watch": "webpack --watch --verbose",
+    "clean": "rm -r dist/*"
   }
 }
