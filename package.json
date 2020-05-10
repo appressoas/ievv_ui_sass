@@ -1,0 +1,16 @@
+{
+  "name": "ievv_ui_sass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Espen Angell Kristiansen",
+  "license": "BSD-3-Clause",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.26.5"
+  },
+  "scripts": {
+    "watch": "sass src/:out/ --watch",
+    "build": "sass src/:out/"
+  }
+}
